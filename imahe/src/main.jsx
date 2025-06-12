@@ -8,7 +8,7 @@ import MainContent from "./components/MainContent.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
-    {/* <Sidebar /> */}
+    <Sidebar />
     <MainContent />
   </StrictMode>
 );
